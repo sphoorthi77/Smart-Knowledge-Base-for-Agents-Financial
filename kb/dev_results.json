@@ -1,0 +1,1896 @@
+{
+ "log": [
+  {
+   "id": "A01",
+   "cost_usd": 0.007295,
+   "latency_s": 100.74,
+   "n_chunks": 29,
+   "n_gold": 352,
+   "docs": [
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf"
+   ],
+   "gold_docs": [
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf"
+   ]
+  },
+  {
+   "id": "A02",
+   "cost_usd": 0.007219,
+   "latency_s": 87.43,
+   "n_chunks": 35,
+   "n_gold": 286,
+   "docs": [
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf"
+   ],
+   "gold_docs": [
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf"
+   ]
+  },
+  {
+   "id": "A03",
+   "cost_usd": 0.004736,
+   "latency_s": 79.95,
+   "n_chunks": 20,
+   "n_gold": 246,
+   "docs": [
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf"
+   ],
+   "gold_docs": [
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf"
+   ]
+  },
+  {
+   "id": "A04",
+   "cost_usd": 0.005445,
+   "latency_s": 63.77,
+   "n_chunks": 9,
+   "n_gold": 12,
+   "docs": [
+    "Inox Wind_Annual Report FY 2026.pdf"
+   ],
+   "gold_docs": [
+    "Inox Wind_Annual Report FY 2026.pdf"
+   ]
+  },
+  {
+   "id": "A05",
+   "cost_usd": 0.0064,
+   "latency_s": 76.4,
+   "n_chunks": 24,
+   "n_gold": 15,
+   "docs": [
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "BaselFramework.pdf"
+   ],
+   "gold_docs": [
+    "Inox Wind_Annual Report FY 2026.pdf"
+   ]
+  },
+  {
+   "id": "A06",
+   "cost_usd": 0.003469,
+   "latency_s": 43.33,
+   "n_chunks": 6,
+   "n_gold": 138,
+   "docs": [
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "GRM Overseas_Annual Report FY 2025.pdf"
+   ],
+   "gold_docs": [
+    "CEATIntegratedAnnualReport2526Re.pdf"
+   ]
+  },
+  {
+   "id": "A07",
+   "cost_usd": 0.00393,
+   "latency_s": 43.36,
+   "n_chunks": 15,
+   "n_gold": 155,
+   "docs": [
+    "CEATIntegratedAnnualReport2526Re.pdf"
+   ],
+   "gold_docs": [
+    "CEATIntegratedAnnualReport2526Re.pdf"
+   ]
+  },
+  {
+   "id": "A08",
+   "cost_usd": 0.005231,
+   "latency_s": 66.7,
+   "n_chunks": 11,
+   "n_gold": 15,
+   "docs": [
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "Bhadora Industries_Annual Report.pdf"
+   ],
+   "gold_docs": [
+    "Refex Industries_Annual Report FY 202526.pdf"
+   ]
+  },
+  {
+   "id": "A09",
+   "cost_usd": 0.002467,
+   "latency_s": 24.37,
+   "n_chunks": 11,
+   "n_gold": 6,
+   "docs": [
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "Bhadora Industries_Annual Report.pdf"
+   ],
+   "gold_docs": [
+    "Refex Industries_Annual Report FY 202526.pdf"
+   ]
+  },
+  {
+   "id": "A10",
+   "cost_usd": 0.004939,
+   "latency_s": 55.73,
+   "n_chunks": 17,
+   "n_gold": 9,
+   "docs": [
+    "Refex Industries_Annual Report FY 202526.pdf"
+   ],
+   "gold_docs": [
+    "Refex Industries_Annual Report FY 202526.pdf"
+   ]
+  },
+  {
+   "id": "A11",
+   "cost_usd": 0.003633,
+   "latency_s": 39.93,
+   "n_chunks": 4,
+   "n_gold": 10,
+   "docs": [
+    "BSF-2025 Integrated Annual Report.pdf",
+    "91fr14952.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "SAMA_EN_3575_VER1.pdf"
+   ],
+   "gold_docs": [
+    "BSF-2025 Integrated Annual Report.pdf"
+   ]
+  },
+  {
+   "id": "A12",
+   "cost_usd": 0.004251,
+   "latency_s": 51.21,
+   "n_chunks": 7,
+   "n_gold": 10,
+   "docs": [
+    "BSF-2025 Integrated Annual Report.pdf",
+    "SAMA_EN_3575_VER1.pdf",
+    "Implementation Handbook.pdf"
+   ],
+   "gold_docs": [
+    "BSF-2025 Integrated Annual Report.pdf"
+   ]
+  },
+  {
+   "id": "A13",
+   "cost_usd": 0.003402,
+   "latency_s": 41.27,
+   "n_chunks": 3,
+   "n_gold": 9,
+   "docs": [
+    "BSF-2025 Integrated Annual Report.pdf",
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "SAMA_EN_3575_VER1.pdf"
+   ],
+   "gold_docs": [
+    "BSF-2025 Integrated Annual Report.pdf"
+   ]
+  },
+  {
+   "id": "A14",
+   "cost_usd": 0.004836,
+   "latency_s": 51.09,
+   "n_chunks": 15,
+   "n_gold": 87,
+   "docs": [
+    "aldar_annual_report_2024.pdf"
+   ],
+   "gold_docs": [
+    "aldar_annual_report_2024.pdf"
+   ]
+  },
+  {
+   "id": "A15",
+   "cost_usd": 0.004705,
+   "latency_s": 50.62,
+   "n_chunks": 14,
+   "n_gold": 40,
+   "docs": [
+    "aldar_annual_report_2024.pdf"
+   ],
+   "gold_docs": [
+    "aldar_annual_report_2024.pdf"
+   ]
+  },
+  {
+   "id": "A16",
+   "cost_usd": 0.004003,
+   "latency_s": 44.13,
+   "n_chunks": 9,
+   "n_gold": 65,
+   "docs": [
+    "Metal Coatings_Annual Report FY 2025.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "2f_lmf.pdf"
+   ],
+   "gold_docs": [
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Metal Coatings_Annual Report FY 2025.pdf"
+   ]
+  },
+  {
+   "id": "A17",
+   "cost_usd": 0.004854,
+   "latency_s": 51.84,
+   "n_chunks": 20,
+   "n_gold": 122,
+   "docs": [
+    "Metal Coatings_Annual Report FY 2025.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf"
+   ],
+   "gold_docs": [
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Metal Coatings_Annual Report FY 2025.pdf"
+   ]
+  },
+  {
+   "id": "A18",
+   "cost_usd": 0.003967,
+   "latency_s": 40.16,
+   "n_chunks": 4,
+   "n_gold": 94,
+   "docs": [
+    "Metal Coatings_Annual Report FY 2025.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf"
+   ],
+   "gold_docs": [
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Metal Coatings_Annual Report FY 2025.pdf"
+   ]
+  },
+  {
+   "id": "A19",
+   "cost_usd": 0.006792,
+   "latency_s": 71.4,
+   "n_chunks": 30,
+   "n_gold": 149,
+   "docs": [
+    "Metal Coatings_Annual Report FY 2025.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "10.1515_econ-2022-0073 (1).pdf",
+    "2f_lmf.pdf"
+   ],
+   "gold_docs": [
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Metal Coatings_Annual Report FY 2025.pdf"
+   ]
+  },
+  {
+   "id": "A20",
+   "cost_usd": 0.003788,
+   "latency_s": 35.13,
+   "n_chunks": 8,
+   "n_gold": 60,
+   "docs": [
+    "Bhadora Industries_Annual Report.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf"
+   ],
+   "gold_docs": [
+    "Bhadora Industries_Annual Report.pdf"
+   ]
+  },
+  {
+   "id": "A21",
+   "cost_usd": 0.005251,
+   "latency_s": 68.23,
+   "n_chunks": 9,
+   "n_gold": 78,
+   "docs": [
+    "Bhadora Industries_Annual Report.pdf",
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "Implementation Handbook.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf"
+   ],
+   "gold_docs": [
+    "Bhadora Industries_Annual Report.pdf"
+   ]
+  },
+  {
+   "id": "A22",
+   "cost_usd": 0.00399,
+   "latency_s": 38.92,
+   "n_chunks": 8,
+   "n_gold": 146,
+   "docs": [
+    "GRM Overseas_Annual Report FY 2025.pdf"
+   ],
+   "gold_docs": [
+    "GRM Overseas_Annual Report FY 2025.pdf",
+    "FASB ASC 326 Update.pdf",
+    "Implementation Handbook.pdf",
+    "ASU_2016-13.pdf"
+   ]
+  },
+  {
+   "id": "A23",
+   "cost_usd": 0.004421,
+   "latency_s": 47.11,
+   "n_chunks": 15,
+   "n_gold": 10,
+   "docs": [
+    "infosys-ar-26.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "comparisonpaper.pdf"
+   ],
+   "gold_docs": [
+    "infosys-ar-26.pdf"
+   ]
+  },
+  {
+   "id": "A24",
+   "cost_usd": 0.006703,
+   "latency_s": 79.37,
+   "n_chunks": 10,
+   "n_gold": 267,
+   "docs": [
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "GRM Overseas_Annual Report FY 2025.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "Metal Coatings_Annual Report FY 2025.pdf",
+    "10.1515_econ-2022-0073 (1).pdf",
+    "comparisonpaper.pdf"
+   ],
+   "gold_docs": [
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "GRM Overseas_Annual Report FY 2025.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf"
+   ]
+  },
+  {
+   "id": "A25",
+   "cost_usd": 0.010265,
+   "latency_s": 188.02,
+   "n_chunks": 27,
+   "n_gold": 147,
+   "docs": [
+    "Bhadora Industries_Annual Report.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "GRM Overseas_Annual Report FY 2025.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf",
+    "Metal Coatings_Annual Report FY 2025.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "91fr14908.pdf"
+   ],
+   "gold_docs": [
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "GRM Overseas_Annual Report FY 2025.pdf",
+    "Bhadora Industries_Annual Report.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf"
+   ]
+  },
+  {
+   "id": "A26",
+   "cost_usd": 0.005757,
+   "latency_s": 60.12,
+   "n_chunks": 36,
+   "n_gold": 137,
+   "docs": [
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "GRM Overseas_Annual Report FY 2025.pdf",
+    "Metal Coatings_Annual Report FY 2025.pdf"
+   ],
+   "gold_docs": [
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "GRM Overseas_Annual Report FY 2025.pdf"
+   ]
+  },
+  {
+   "id": "A27",
+   "cost_usd": 0.006651,
+   "latency_s": 81.29,
+   "n_chunks": 15,
+   "n_gold": 104,
+   "docs": [
+    "Bhadora Industries_Annual Report.pdf",
+    "GRM Overseas_Annual Report FY 2025.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "91fr14908.pdf"
+   ],
+   "gold_docs": [
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "GRM Overseas_Annual Report FY 2025.pdf",
+    "Bhadora Industries_Annual Report.pdf"
+   ]
+  },
+  {
+   "id": "A28",
+   "cost_usd": 0.004076,
+   "latency_s": 65.75,
+   "n_chunks": 8,
+   "n_gold": 220,
+   "docs": [
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf",
+    "infosys-ar-26.pdf",
+    "91fr14908.pdf",
+    "ASU_2016-13.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "Implementation Handbook.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf"
+   ],
+   "gold_docs": [
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "infosys-ar-26.pdf",
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf"
+   ]
+  },
+  {
+   "id": "A29",
+   "cost_usd": 0.004084,
+   "latency_s": 53.94,
+   "n_chunks": 6,
+   "n_gold": 189,
+   "docs": [
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Metal Coatings_Annual Report FY 2025.pdf",
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "Implementation Handbook.pdf"
+   ],
+   "gold_docs": [
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf"
+   ]
+  },
+  {
+   "id": "A30",
+   "cost_usd": 0.003916,
+   "latency_s": 55.51,
+   "n_chunks": 7,
+   "n_gold": 89,
+   "docs": [
+    "BSF-2025 Integrated Annual Report.pdf",
+    "aldar_annual_report_2024.pdf",
+    "SAMA_EN_3575_VER1.pdf"
+   ],
+   "gold_docs": [
+    "BSF-2025 Integrated Annual Report.pdf",
+    "aldar_annual_report_2024.pdf"
+   ]
+  },
+  {
+   "id": "A31",
+   "cost_usd": 0.0027,
+   "latency_s": 28.57,
+   "n_chunks": 6,
+   "n_gold": 47,
+   "docs": [
+    "BSF-2025 Integrated Annual Report.pdf",
+    "aldar_annual_report_2024.pdf",
+    "SAMA_EN_3575_VER1.pdf"
+   ],
+   "gold_docs": [
+    "BSF-2025 Integrated Annual Report.pdf",
+    "aldar_annual_report_2024.pdf"
+   ]
+  },
+  {
+   "id": "A32",
+   "cost_usd": 0.006053,
+   "latency_s": 78.23,
+   "n_chunks": 16,
+   "n_gold": 147,
+   "docs": [
+    "infosys-ar-26.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "BSF-2025 Integrated Annual Report.pdf",
+    "aldar_annual_report_2024.pdf",
+    "SAMA_EN_3575_VER1.pdf"
+   ],
+   "gold_docs": [
+    "infosys-ar-26.pdf",
+    "BSF-2025 Integrated Annual Report.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "aldar_annual_report_2024.pdf"
+   ]
+  },
+  {
+   "id": "A33",
+   "cost_usd": 0.001115,
+   "latency_s": 10.96,
+   "n_chunks": 2,
+   "n_gold": 2,
+   "docs": [
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "Bhadora Industries_Annual Report.pdf"
+   ],
+   "gold_docs": [
+    "Refex Industries_Annual Report FY 202526.pdf"
+   ]
+  },
+  {
+   "id": "A34",
+   "cost_usd": 0.001247,
+   "latency_s": 9.51,
+   "n_chunks": 8,
+   "n_gold": 1,
+   "docs": [
+    "BSF-2025 Integrated Annual Report.pdf",
+    "Bhadora Industries_Annual Report.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "FASB ASC 326 Update.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "SAMA_EN_3575_VER1.pdf",
+    "infosys-ar-26.pdf"
+   ],
+   "gold_docs": [
+    "BSF-2025 Integrated Annual Report.pdf"
+   ]
+  },
+  {
+   "id": "A35",
+   "cost_usd": 0.001156,
+   "latency_s": 11.64,
+   "n_chunks": 8,
+   "n_gold": 2,
+   "docs": [
+    "infosys-ar-26.pdf",
+    "BCBS-Basel-Endgame.pdf"
+   ],
+   "gold_docs": [
+    "infosys-ar-26.pdf"
+   ]
+  },
+  {
+   "id": "A36",
+   "cost_usd": 0.001426,
+   "latency_s": 12.94,
+   "n_chunks": 8,
+   "n_gold": 13,
+   "docs": [
+    "aldar_annual_report_2024.pdf",
+    "Bhadora Industries_Annual Report.pdf",
+    "BSF-2025 Integrated Annual Report.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "FASB ASC 326 Update.pdf",
+    "GRM Overseas_Annual Report FY 2025.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf",
+    "Metal Coatings_Annual Report FY 2025.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "infosys-ar-26.pdf"
+   ],
+   "gold_docs": [
+    "aldar_annual_report_2024.pdf"
+   ]
+  },
+  {
+   "id": "B01",
+   "cost_usd": 0.003856,
+   "latency_s": 51.71,
+   "n_chunks": 5,
+   "n_gold": 40,
+   "docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "91fr14952.pdf"
+   ],
+   "gold_docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "2026-05960.pdf"
+   ]
+  },
+  {
+   "id": "B02",
+   "cost_usd": 0.009046,
+   "latency_s": 110.1,
+   "n_chunks": 14,
+   "n_gold": 164,
+   "docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "BaselFramework.pdf",
+    "91fr14908.pdf",
+    "91fr14952.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "FASB ASC 326 Update.pdf",
+    "comparisonpaper.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "91fr14908.pdf"
+   ]
+  },
+  {
+   "id": "B03",
+   "cost_usd": 0.00972,
+   "latency_s": 191.91,
+   "n_chunks": 22,
+   "n_gold": 181,
+   "docs": [
+    "91fr14952.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "BaselFramework.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "10.1515_econ-2022-0073 (1).pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf",
+    "BCBS-Basel-Endgame.pdf"
+   ]
+  },
+  {
+   "id": "B04",
+   "cost_usd": 0.007198,
+   "latency_s": 113.69,
+   "n_chunks": 20,
+   "n_gold": 152,
+   "docs": [
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "gsib-memo-change-summary.pdf",
+    "91fr14952.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "gsib-memo-change-summary.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "91fr14908.pdf"
+   ]
+  },
+  {
+   "id": "B05",
+   "cost_usd": 0.005698,
+   "latency_s": 91.76,
+   "n_chunks": 6,
+   "n_gold": 30,
+   "docs": [
+    "91fr14908.pdf",
+    "91fr14952.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "BCBS-MarketRisk.pdf",
+    "BaselFramework.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf",
+    "gsib-memo-change-summary.pdf",
+    "BCBS-Basel-Endgame.pdf"
+   ]
+  },
+  {
+   "id": "B06",
+   "cost_usd": 0.007418,
+   "latency_s": 125.56,
+   "n_chunks": 20,
+   "n_gold": 35,
+   "docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "BaselFramework.pdf",
+    "91fr14952.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf"
+   ]
+  },
+  {
+   "id": "B07",
+   "cost_usd": 0.009546,
+   "latency_s": 118.47,
+   "n_chunks": 23,
+   "n_gold": 138,
+   "docs": [
+    "BCBS-MarketRisk.pdf",
+    "91fr14952.pdf",
+    "10.1515_econ-2022-0073 (1).pdf",
+    "FDIC Interagency CECL Statement.pdf"
+   ],
+   "gold_docs": [
+    "BCBS-MarketRisk.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf"
+   ]
+  },
+  {
+   "id": "B08",
+   "cost_usd": 0.004645,
+   "latency_s": 78.04,
+   "n_chunks": 9,
+   "n_gold": 48,
+   "docs": [
+    "91fr14952.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "BCBS-MarketRisk.pdf",
+    "BCBS-CreditValuation.pdf"
+   ],
+   "gold_docs": [
+    "fact-sheet-20260319.pdf",
+    "BCBS-MarketRisk.pdf",
+    "BCBS-CreditValuation.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "2026-05960.pdf"
+   ]
+  },
+  {
+   "id": "B09",
+   "cost_usd": 0.006824,
+   "latency_s": 109.47,
+   "n_chunks": 16,
+   "n_gold": 60,
+   "docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "BCBS-CreditValuation.pdf",
+    "91fr14952.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "BCBS-CreditValuation.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "2026-05960.pdf"
+   ]
+  },
+  {
+   "id": "B10",
+   "cost_usd": 0.004525,
+   "latency_s": 69.96,
+   "n_chunks": 8,
+   "n_gold": 155,
+   "docs": [
+    "BaselFramework.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "BCBS-MarketRisk.pdf"
+   ]
+  },
+  {
+   "id": "B11",
+   "cost_usd": 0.007056,
+   "latency_s": 97.39,
+   "n_chunks": 25,
+   "n_gold": 36,
+   "docs": [
+    "91fr14952.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "BaselFramework.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf"
+   ]
+  },
+  {
+   "id": "B12",
+   "cost_usd": 0.007739,
+   "latency_s": 185.17,
+   "n_chunks": 10,
+   "n_gold": 86,
+   "docs": [
+    "gsib-memo-change-summary.pdf",
+    "BaselFramework.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "10.1515_econ-2022-0073 (1).pdf"
+   ],
+   "gold_docs": [
+    "91fr14908.pdf",
+    "gsib-memo-change-summary.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf"
+   ]
+  },
+  {
+   "id": "B13",
+   "cost_usd": 0.014403,
+   "latency_s": 164.36,
+   "n_chunks": 26,
+   "n_gold": 71,
+   "docs": [
+    "BaselFramework.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "91fr14908.pdf",
+    "91fr14952.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "gsib-memo-change-summary.pdf"
+   ],
+   "gold_docs": [
+    "gsib-memo-change-summary.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "91fr14908.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf"
+   ]
+  },
+  {
+   "id": "B14",
+   "cost_usd": 0.006709,
+   "latency_s": 163.65,
+   "n_chunks": 18,
+   "n_gold": 83,
+   "docs": [
+    "91fr14952.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "10.1515_econ-2022-0073 (1).pdf"
+   ],
+   "gold_docs": [
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf",
+    "2026-05960.pdf",
+    "91fr14908.pdf",
+    "BCBS-Basel-Endgame.pdf"
+   ]
+  },
+  {
+   "id": "B15",
+   "cost_usd": 0.00858,
+   "latency_s": 188.41,
+   "n_chunks": 11,
+   "n_gold": 85,
+   "docs": [
+    "91fr14952.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "Implementation Handbook.pdf"
+   ],
+   "gold_docs": [
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf",
+    "gsib-memo-change-summary.pdf",
+    "2026-05960.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "91fr14908.pdf"
+   ]
+  },
+  {
+   "id": "B16",
+   "cost_usd": 0.006615,
+   "latency_s": 106.6,
+   "n_chunks": 16,
+   "n_gold": 109,
+   "docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "91fr14952.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "2026-05960.pdf",
+    "gsib-memo-change-summary.pdf"
+   ]
+  },
+  {
+   "id": "B17",
+   "cost_usd": 0.006063,
+   "latency_s": 99.45,
+   "n_chunks": 12,
+   "n_gold": 80,
+   "docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "BaselFramework.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf"
+   ]
+  },
+  {
+   "id": "B18",
+   "cost_usd": 0.007655,
+   "latency_s": 140.57,
+   "n_chunks": 22,
+   "n_gold": 135,
+   "docs": [
+    "91fr14952.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "aldar_annual_report_2024.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf"
+   ]
+  },
+  {
+   "id": "B19",
+   "cost_usd": 0.004904,
+   "latency_s": 98.52,
+   "n_chunks": 10,
+   "n_gold": 99,
+   "docs": [
+    "91fr14908.pdf",
+    "91fr14952.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "BaselFramework.pdf",
+    "BCBS-Basel-Endgame.pdf"
+   ],
+   "gold_docs": [
+    "fact-sheet-20260319.pdf",
+    "2026-05960.pdf",
+    "91fr14908.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "BCBS-Basel-Endgame.pdf"
+   ]
+  },
+  {
+   "id": "B20",
+   "cost_usd": 0.006923,
+   "latency_s": 94.12,
+   "n_chunks": 11,
+   "n_gold": 82,
+   "docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "BaselFramework.pdf",
+    "91fr14908.pdf",
+    "91fr14952.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "BCBS-MarketRisk.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "2026-05960.pdf",
+    "91fr14908.pdf",
+    "gsib-memo-change-summary.pdf"
+   ]
+  },
+  {
+   "id": "B21",
+   "cost_usd": 0.006792,
+   "latency_s": 87.97,
+   "n_chunks": 16,
+   "n_gold": 84,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "BaselFramework.pdf",
+    "FDIC FAQ.pdf",
+    "OCC ACL Handbook.pdf",
+    "91fr14952.pdf",
+    "comparisonpaper.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "ASU_2016-13.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf"
+   ]
+  },
+  {
+   "id": "B22",
+   "cost_usd": 0.004875,
+   "latency_s": 90.94,
+   "n_chunks": 16,
+   "n_gold": 145,
+   "docs": [
+    "comparisonpaper.pdf",
+    "BCBS-MarketRisk.pdf",
+    "91fr14952.pdf",
+    "2f_lmf.pdf",
+    "10.1515_econ-2022-0073 (1).pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf"
+   ],
+   "gold_docs": [
+    "comparisonpaper.pdf",
+    "2f_lmf.pdf",
+    "BCBS-MarketRisk.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "Markov_Functional_CCY_Model.pdf"
+   ]
+  },
+  {
+   "id": "B23",
+   "cost_usd": 0.006205,
+   "latency_s": 138.52,
+   "n_chunks": 22,
+   "n_gold": 66,
+   "docs": [
+    "gsib-memo-change-summary.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "91fr14908.pdf",
+    "91fr14952.pdf"
+   ],
+   "gold_docs": [
+    "gsib-memo-change-summary.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf",
+    "2026-05960.pdf",
+    "91fr14908.pdf"
+   ]
+  },
+  {
+   "id": "B24",
+   "cost_usd": 0.004655,
+   "latency_s": 60.22,
+   "n_chunks": 6,
+   "n_gold": 64,
+   "docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "BaselFramework.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf"
+   ]
+  },
+  {
+   "id": "B25",
+   "cost_usd": 0.005129,
+   "latency_s": 108.44,
+   "n_chunks": 14,
+   "n_gold": 64,
+   "docs": [
+    "91fr14952.pdf",
+    "BCBS-CreditValuation.pdf"
+   ],
+   "gold_docs": [
+    "fact-sheet-20260319.pdf",
+    "2026-05960.pdf",
+    "BCBS-CreditValuation.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf"
+   ]
+  },
+  {
+   "id": "B26",
+   "cost_usd": 0.006444,
+   "latency_s": 115.73,
+   "n_chunks": 18,
+   "n_gold": 116,
+   "docs": [
+    "91fr14908.pdf",
+    "91fr14952.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "gsib-memo-change-summary.pdf"
+   ],
+   "gold_docs": [
+    "91fr14908.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf",
+    "2026-05960.pdf",
+    "gsib-memo-change-summary.pdf"
+   ]
+  },
+  {
+   "id": "B27",
+   "cost_usd": 0.006852,
+   "latency_s": 106.81,
+   "n_chunks": 17,
+   "n_gold": 74,
+   "docs": [
+    "91fr14952.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "BaselFramework.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf"
+   ]
+  },
+  {
+   "id": "B28",
+   "cost_usd": 0.007624,
+   "latency_s": 118.79,
+   "n_chunks": 37,
+   "n_gold": 102,
+   "docs": [
+    "91fr14908.pdf",
+    "91fr14952.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "gsib-memo-change-summary.pdf",
+    "Implementation Handbook.pdf"
+   ],
+   "gold_docs": [
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf",
+    "gsib-memo-change-summary.pdf",
+    "91fr14908.pdf",
+    "2026-05960.pdf"
+   ]
+  },
+  {
+   "id": "B29",
+   "cost_usd": 0.007418,
+   "latency_s": 110.58,
+   "n_chunks": 22,
+   "n_gold": 84,
+   "docs": [
+    "91fr14908.pdf",
+    "91fr14952.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "BaselFramework.pdf",
+    "gsib-memo-change-summary.pdf",
+    "Implementation Handbook.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "91fr14908.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-20260319.pdf",
+    "BCBS-Basel-Endgame.pdf",
+    "gsib-memo-change-summary.pdf"
+   ]
+  },
+  {
+   "id": "B30",
+   "cost_usd": 0.001475,
+   "latency_s": 14.65,
+   "n_chunks": 8,
+   "n_gold": 3,
+   "docs": [
+    "BCBS-Basel-Endgame.pdf",
+    "2012.07440v3.pdf",
+    "BSF-2025 Integrated Annual Report.pdf",
+    "Bhadora Industries_Annual Report.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "FASB ASC 326 Update.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "infosys-ar-26.pdf"
+   ],
+   "gold_docs": [
+    "BCBS-Basel-Endgame.pdf"
+   ]
+  },
+  {
+   "id": "B31",
+   "cost_usd": 0.002053,
+   "latency_s": 22.2,
+   "n_chunks": 8,
+   "n_gold": 12,
+   "docs": [
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "2026-05960.pdf",
+    "fact-sheet-20260319.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf"
+   ]
+  },
+  {
+   "id": "B32",
+   "cost_usd": 0.002741,
+   "latency_s": 54.69,
+   "n_chunks": 2,
+   "n_gold": 0,
+   "docs": [
+    "91fr14908.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "BSF-2025 Integrated Annual Report.pdf",
+    "Bhadora Industries_Annual Report.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "FASB ASC 326 Update.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "infosys-ar-26.pdf"
+   ],
+   "gold_docs": []
+  },
+  {
+   "id": "C01",
+   "cost_usd": 0.005409,
+   "latency_s": 82.65,
+   "n_chunks": 29,
+   "n_gold": 112,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "ASU_2016-13.pdf",
+    "OCC ACL Handbook.pdf",
+    "Implementation Handbook.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf"
+   ]
+  },
+  {
+   "id": "C02",
+   "cost_usd": 0.007487,
+   "latency_s": 139.07,
+   "n_chunks": 43,
+   "n_gold": 187,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "OCC ACL Handbook.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "FDIC FAQ.pdf",
+    "Implementation Handbook.pdf",
+    "ASU_2016-13.pdf"
+   ]
+  },
+  {
+   "id": "C03",
+   "cost_usd": 0.006586,
+   "latency_s": 130.16,
+   "n_chunks": 14,
+   "n_gold": 40,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "2f_lmf.pdf",
+    "BaselFramework.pdf",
+    "comparisonpaper.pdf"
+   ],
+   "gold_docs": [
+    "ASU_2016-13.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "FDIC FAQ.pdf"
+   ]
+  },
+  {
+   "id": "C04",
+   "cost_usd": 0.006855,
+   "latency_s": 91.27,
+   "n_chunks": 26,
+   "n_gold": 84,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "comparisonpaper.pdf"
+   ],
+   "gold_docs": [
+    "FDIC Interagency CECL Statement.pdf",
+    "OCC ACL Handbook.pdf",
+    "FDIC FAQ.pdf",
+    "Implementation Handbook.pdf",
+    "ASU_2016-13.pdf"
+   ]
+  },
+  {
+   "id": "C05",
+   "cost_usd": 0.005123,
+   "latency_s": 74.25,
+   "n_chunks": 14,
+   "n_gold": 62,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "BCBS-Basel-Endgame.pdf"
+   ],
+   "gold_docs": [
+    "OCC ACL Handbook.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "FDIC FAQ.pdf",
+    "ASU_2016-13.pdf",
+    "Implementation Handbook.pdf"
+   ]
+  },
+  {
+   "id": "C06",
+   "cost_usd": 0.007512,
+   "latency_s": 108.17,
+   "n_chunks": 28,
+   "n_gold": 100,
+   "docs": [
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf"
+   ],
+   "gold_docs": [
+    "OCC ACL Handbook.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "FDIC FAQ.pdf",
+    "Implementation Handbook.pdf",
+    "ASU_2016-13.pdf",
+    "RiskMetrics_-_Technical_Document.pdf"
+   ]
+  },
+  {
+   "id": "C07",
+   "cost_usd": 0.004351,
+   "latency_s": 68.31,
+   "n_chunks": 4,
+   "n_gold": 63,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "OCC ACL Handbook.pdf",
+    "Implementation Handbook.pdf",
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Guidelines on Management of Problem Loans.pdf"
+   ]
+  },
+  {
+   "id": "C08",
+   "cost_usd": 0.007638,
+   "latency_s": 118.59,
+   "n_chunks": 30,
+   "n_gold": 91,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf"
+   ],
+   "gold_docs": [
+    "FDIC Interagency CECL Statement.pdf",
+    "OCC ACL Handbook.pdf",
+    "Implementation Handbook.pdf",
+    "FDIC FAQ.pdf",
+    "ASU_2016-13.pdf"
+   ]
+  },
+  {
+   "id": "C09",
+   "cost_usd": 0.004342,
+   "latency_s": 57.14,
+   "n_chunks": 10,
+   "n_gold": 58,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf"
+   ],
+   "gold_docs": [
+    "FDIC Interagency CECL Statement.pdf",
+    "OCC ACL Handbook.pdf",
+    "FDIC FAQ.pdf",
+    "Implementation Handbook.pdf",
+    "ASU_2016-13.pdf"
+   ]
+  },
+  {
+   "id": "C10",
+   "cost_usd": 0.006579,
+   "latency_s": 82.56,
+   "n_chunks": 26,
+   "n_gold": 117,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "OCC ACL Handbook.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "FDIC FAQ.pdf",
+    "ASU_2016-13.pdf"
+   ]
+  },
+  {
+   "id": "C11",
+   "cost_usd": 0.007208,
+   "latency_s": 109.05,
+   "n_chunks": 22,
+   "n_gold": 89,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "fact-sheet-SUMMARY.pdf",
+    "comparisonpaper.pdf"
+   ],
+   "gold_docs": [
+    "ASU_2016-13.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "FASB ASC 326 Update.pdf"
+   ]
+  },
+  {
+   "id": "C12",
+   "cost_usd": 0.004537,
+   "latency_s": 64.7,
+   "n_chunks": 7,
+   "n_gold": 25,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "FDIC FAQ.pdf",
+    "OCC ACL Handbook.pdf",
+    "2026-05960.pdf"
+   ]
+  },
+  {
+   "id": "C13",
+   "cost_usd": 0.004873,
+   "latency_s": 72.62,
+   "n_chunks": 12,
+   "n_gold": 21,
+   "docs": [
+    "FDIC Interagency CECL Statement.pdf",
+    "OCC ACL Handbook.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "OCC ACL Handbook.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "FDIC FAQ.pdf"
+   ]
+  },
+  {
+   "id": "C14",
+   "cost_usd": 0.004545,
+   "latency_s": 85.51,
+   "n_chunks": 5,
+   "n_gold": 64,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FASB ASC 326 Update.pdf",
+    "BSF-2025 Integrated Annual Report.pdf",
+    "Bhadora Industries_Annual Report.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "comparisonpaper.pdf",
+    "infosys-ar-26.pdf"
+   ],
+   "gold_docs": [
+    "FASB ASC 326 Update.pdf",
+    "ASU_2016-13.pdf",
+    "Implementation Handbook.pdf"
+   ]
+  },
+  {
+   "id": "C15",
+   "cost_usd": 0.004496,
+   "latency_s": 103.03,
+   "n_chunks": 12,
+   "n_gold": 129,
+   "docs": [
+    "ASU_2016-13.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Implementation Handbook.pdf",
+    "OCC ACL Handbook.pdf"
+   ],
+   "gold_docs": [
+    "FDIC Interagency CECL Statement.pdf",
+    "OCC ACL Handbook.pdf",
+    "FDIC FAQ.pdf",
+    "Implementation Handbook.pdf",
+    "ASU_2016-13.pdf",
+    "BCBS-Basel-Endgame.pdf"
+   ]
+  },
+  {
+   "id": "C16",
+   "cost_usd": 0.004722,
+   "latency_s": 72.31,
+   "n_chunks": 20,
+   "n_gold": 28,
+   "docs": [
+    "ASU_2016-13.pdf"
+   ],
+   "gold_docs": [
+    "ASU_2016-13.pdf"
+   ]
+  },
+  {
+   "id": "C17",
+   "cost_usd": 0.004412,
+   "latency_s": 117.98,
+   "n_chunks": 9,
+   "n_gold": 24,
+   "docs": [
+    "Heston.pdf",
+    "2012.07440v3.pdf",
+    "91fr14952.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "Heston.pdf"
+   ]
+  },
+  {
+   "id": "C18",
+   "cost_usd": 0.00492,
+   "latency_s": 76.1,
+   "n_chunks": 20,
+   "n_gold": 49,
+   "docs": [
+    "2012.07440v3.pdf"
+   ],
+   "gold_docs": [
+    "2012.07440v3.pdf"
+   ]
+  },
+  {
+   "id": "C19",
+   "cost_usd": 0.004525,
+   "latency_s": 70.61,
+   "n_chunks": 10,
+   "n_gold": 65,
+   "docs": [
+    "2f_lmf.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "comparisonpaper.pdf",
+    "crosscurrencymfm.pdf",
+    "2012.07440v3.pdf"
+   ],
+   "gold_docs": [
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf",
+    "2f_lmf.pdf",
+    "comparisonpaper.pdf"
+   ]
+  },
+  {
+   "id": "C20",
+   "cost_usd": 0.004459,
+   "latency_s": 51.51,
+   "n_chunks": 11,
+   "n_gold": 120,
+   "docs": [
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf",
+    "2f_lmf.pdf",
+    "2012.07440v3.pdf",
+    "91fr14952.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "comparisonpaper.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "crosscurrencymfm.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "comparisonpaper.pdf",
+    "2f_lmf.pdf"
+   ]
+  },
+  {
+   "id": "C21",
+   "cost_usd": 0.004895,
+   "latency_s": 72.41,
+   "n_chunks": 19,
+   "n_gold": 65,
+   "docs": [
+    "2f_lmf.pdf",
+    "comparisonpaper.pdf",
+    "91fr14908.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf"
+   ],
+   "gold_docs": [
+    "comparisonpaper.pdf",
+    "2f_lmf.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf"
+   ]
+  },
+  {
+   "id": "C22",
+   "cost_usd": 0.00485,
+   "latency_s": 68.62,
+   "n_chunks": 17,
+   "n_gold": 126,
+   "docs": [
+    "2f_lmf.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "comparisonpaper.pdf",
+    "crosscurrencymfm.pdf"
+   ],
+   "gold_docs": [
+    "2f_lmf.pdf",
+    "comparisonpaper.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf"
+   ]
+  },
+  {
+   "id": "C23",
+   "cost_usd": 0.004933,
+   "latency_s": 97.67,
+   "n_chunks": 17,
+   "n_gold": 127,
+   "docs": [
+    "RiskMetrics_-_Technical_Document.pdf",
+    "BCBS-MarketRisk.pdf",
+    "board-memo-basel-gsib-standardized-approach.pdf"
+   ],
+   "gold_docs": [
+    "RiskMetrics_-_Technical_Document.pdf",
+    "BCBS-MarketRisk.pdf"
+   ]
+  },
+  {
+   "id": "C24",
+   "cost_usd": 0.006555,
+   "latency_s": 89.81,
+   "n_chunks": 16,
+   "n_gold": 163,
+   "docs": [
+    "RiskMetrics_-_Technical_Document.pdf"
+   ],
+   "gold_docs": [
+    "RiskMetrics_-_Technical_Document.pdf"
+   ]
+  },
+  {
+   "id": "C25",
+   "cost_usd": 0.001889,
+   "latency_s": 37.69,
+   "n_chunks": 3,
+   "n_gold": 166,
+   "docs": [
+    "RiskMetrics_-_Technical_Document.pdf",
+    "91fr14952.pdf"
+   ],
+   "gold_docs": [
+    "RiskMetrics_-_Technical_Document.pdf"
+   ]
+  },
+  {
+   "id": "C26",
+   "cost_usd": 0.004295,
+   "latency_s": 65.55,
+   "n_chunks": 11,
+   "n_gold": 32,
+   "docs": [
+    "10.1515_econ-2022-0073 (1).pdf",
+    "91fr14952.pdf"
+   ],
+   "gold_docs": [
+    "10.1515_econ-2022-0073 (1).pdf"
+   ]
+  },
+  {
+   "id": "C27",
+   "cost_usd": 0.004317,
+   "latency_s": 80.5,
+   "n_chunks": 11,
+   "n_gold": 83,
+   "docs": [
+    "Heston.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf",
+    "2f_lmf.pdf",
+    "91fr14952.pdf",
+    "FDIC FAQ.pdf",
+    "FDIC Interagency CECL Statement.pdf",
+    "comparisonpaper.pdf",
+    "fact-sheet-SUMMARY.pdf"
+   ],
+   "gold_docs": [
+    "Heston.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf"
+   ]
+  },
+  {
+   "id": "C28",
+   "cost_usd": 0.007409,
+   "latency_s": 142.56,
+   "n_chunks": 32,
+   "n_gold": 253,
+   "docs": [
+    "2012.07440v3.pdf",
+    "2f_lmf.pdf",
+    "Heston.pdf",
+    "RiskMetrics_-_Technical_Document.pdf",
+    "comparisonpaper.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf"
+   ],
+   "gold_docs": [
+    "2012.07440v3.pdf",
+    "crosscurrencymfm.pdf",
+    "2f_lmf.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "comparisonpaper.pdf",
+    "RiskMetrics_-_Technical_Document.pdf",
+    "Heston.pdf"
+   ]
+  },
+  {
+   "id": "C29",
+   "cost_usd": 0.004477,
+   "latency_s": 54.83,
+   "n_chunks": 15,
+   "n_gold": 55,
+   "docs": [
+    "2f_lmf.pdf",
+    "comparisonpaper.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf"
+   ],
+   "gold_docs": [
+    "comparisonpaper.pdf",
+    "2f_lmf.pdf",
+    "Markov_Functional_CCY_Model.pdf",
+    "crosscurrencymfm.pdf"
+   ]
+  },
+  {
+   "id": "C30",
+   "cost_usd": 0.001668,
+   "latency_s": 26.63,
+   "n_chunks": 3,
+   "n_gold": 8,
+   "docs": [
+    "FASB ASC 326 Update.pdf",
+    "BSF-2025 Integrated Annual Report.pdf",
+    "Bhadora Industries_Annual Report.pdf",
+    "CEATIntegratedAnnualReport2526Re.pdf",
+    "Implementation Handbook.pdf",
+    "Inox Wind_Annual Report FY 2026.pdf",
+    "Integrated Annual Report 2025-26 Gammon India Limited.pdf",
+    "Metal Coatings_Annual Report FY 2026.pdf",
+    "Refex Industries_Annual Report FY 202526.pdf",
+    "infosys-ar-26.pdf"
+   ],
+   "gold_docs": [
+    "FASB ASC 326 Update.pdf",
+    "Implementation Handbook.pdf"
+   ]
+  },
+  {
+   "id": "C31",
+   "cost_usd": 0.001526,
+   "latency_s": 18.54,
+   "n_chunks": 3,
+   "n_gold": 1,
+   "docs": [
+    "2012.07440v3.pdf"
+   ],
+   "gold_docs": [
+    "2012.07440v3.pdf"
+   ]
+  },
+  {
+   "id": "C32",
+   "cost_usd": 0.001865,
+   "latency_s": 33.05,
+   "n_chunks": 3,
+   "n_gold": 8,
+   "docs": [
+    "FDIC FAQ.pdf",
+    "91fr14952.pdf",
+    "FDIC Interagency CECL Statement.pdf"
+   ],
+   "gold_docs": [
+    "FDIC FAQ.pdf"
+   ]
+  }
+ ]
+}

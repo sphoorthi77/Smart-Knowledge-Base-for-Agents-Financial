@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+requests
+scikit-learn
+numpy
+pymupdf
+pdfplumber
+pytesseract
+pillow
+langfuse
+faiss-cpu
+networkx

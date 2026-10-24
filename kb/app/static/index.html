@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RETRO // KB AGENT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d0f18;
+      --window-bg: #141724;
+      --terminal-bg: #090a10;
+      --border-outer: #4e4a68;
+      --border-dark: #1f1b2e;
+      --border-light: #8b85b1;
+      --neon-green: #39ff14;
+      --neon-cyan: #00e5ff;
+      --neon-amber: #ffb000;
+      --neon-pink: #ff007f;
+      --text: #cdd6f4;
+      --text-dim: #7f849c;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      image-rendering: pixelated;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'VT323', monospace;
+      font-size: 20px;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* CRT Scanline Effect */
+    body::before {
+      content: " ";
+      display: block;
+      position: fixed;
+      top: 0; left: 0; bottom: 0; right: 0;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.35) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.04), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.04));
+      z-index: 100;
+      background-size: 100% 3px, 4px 100%;
+      pointer-events: none;
+    }
+
+    /* Pixelated Window Container */
+    .retro-window {
+      width: 100%;
+      max-width: 980px;
+      height: 92vh;
+      background: var(--window-bg);
+      border: 4px solid var(--border-outer);
+      box-shadow: 
+        inset 4px 4px 0px var(--border-light),
+        inset -4px -4px 0px var(--border-dark),
+        8px 8px 0px #000;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    /* Title Bar */
+    .title-bar {
+      background: #1b1e2e;
+      border-bottom: 4px solid var(--border-dark);
+      padding: 8px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+    }
+
+    .title-text {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 11px;
+      color: var(--neon-cyan);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-shadow: 2px 2px 0px #000;
+    }
+
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      background: var(--neon-green);
+      box-shadow: 0 0 6px var(--neon-green);
+      display: inline-block;
+      animation: blink 1.2s infinite steps(1);
+    }
+
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    .window-controls {
+      display: flex;
+      gap: 6px;
+    }
+
+    .btn-pixel {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 9px;
+      padding: 4px 8px;
+      background: #2a2d42;
+      color: var(--text);
+      border: 2px solid var(--border-outer);
+      box-shadow: inset 2px 2px 0px var(--border-light), inset -2px -2px 0px var(--border-dark);
+      cursor: pointer;
+    }
+
+    .btn-pixel:active {
+      box-shadow: inset -2px -2px 0px var(--border-light), inset 2px 2px 0px var(--border-dark);
+      transform: translate(1px, 1px);
+    }
+
+    /* Settings Bar */
+    .config-strip {
+      background: #11131c;
+      padding: 6px 12px;
+      border-bottom: 2px dashed var(--border-outer);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 16px;
+      color: var(--text-dim);
+    }
+
+    .config-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .config-input {
+      font-family: 'VT323', monospace;
+      font-size: 18px;
+      background: #000;
+      color: var(--neon-amber);
+      border: 2px solid var(--border-dark);
+      padding: 2px 6px;
+      outline: none;
+      width: 90px;
+    }
+
+    .badge {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 8px;
+      padding: 3px 6px;
+      border: 1px solid var(--border-outer);
+    }
+    .badge-green { color: var(--neon-green); border-color: var(--neon-green); }
+    .badge-cyan { color: var(--neon-cyan); border-color: var(--neon-cyan); }
+    .badge-pink { color: var(--neon-pink); border-color: var(--neon-pink); }
+
+    /* Terminal / Chat Area */
+    .terminal-body {
+      flex: 1;
+      background: var(--terminal-bg);
+      padding: 16px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .terminal-body::-webkit-scrollbar {
+      width: 12px;
+      background: #0b0d14;
+    }
+    .terminal-body::-webkit-scrollbar-thumb {
+      background: var(--border-outer);
+      border: 2px solid var(--border-dark);
+    }
+
+    /* Message Bubbles */
+    .msg-row {
+      display: flex;
+      flex-direction: column;
+      max-width: 88%;
+      animation: fadeIn 0.2s steps(4);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .msg-user {
+      align-self: flex-end;
+    }
+
+    .msg-ai {
+      align-self: flex-start;
+    }
+
+    .msg-header {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 8px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .msg-user .msg-header { color: var(--neon-amber); text-align: right; justify-content: flex-end; }
+    .msg-ai .msg-header { color: var(--neon-cyan); }
+
+    .msg-bubble {
+      padding: 10px 14px;
+      background: #141724;
+      border: 3px solid var(--border-outer);
+      box-shadow: 4px 4px 0px #000;
+      white-space: pre-wrap;
+      word-break: break-word;
+      line-height: 1.35;
+    }
+
+    .msg-user .msg-bubble {
+      background: #1e1b2e;
+      border-color: #634f8a;
+      color: #fff;
+    }
+
+    .msg-ai .msg-bubble {
+      background: #0f1824;
+      border-color: #274868;
+      color: #e0f2fe;
+    }
+
+    /* Citation Tags & Citations */
+    .citation {
+      color: var(--neon-pink);
+      font-weight: bold;
+    }
+
+    /* Stats & Trace Accordion */
+    .meta-box {
+      margin-top: 8px;
+      background: #090b10;
+      border: 2px dashed #26334d;
+      padding: 6px 10px;
+      font-size: 15px;
+      color: var(--text-dim);
+    }
+
+    .meta-metrics {
+      display: flex;
+      gap: 16px;
+      color: var(--neon-green);
+    }
+
+    details summary {
+      cursor: pointer;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 8px;
+      color: var(--neon-amber);
+      margin-top: 6px;
+      user-select: none;
+    }
+
+    .trace-item {
+      margin-top: 6px;
+      padding: 4px 6px;
+      background: #10141f;
+      border-left: 2px solid var(--neon-cyan);
+      font-size: 14px;
+      font-family: monospace;
+    }
+
+    /* Sample Questions Strip */
+    .quick-bar {
+      background: #10121d;
+      padding: 8px 12px;
+      border-top: 2px solid var(--border-dark);
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    .quick-chip {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 8px;
+      background: #1e2235;
+      color: var(--neon-cyan);
+      padding: 6px 8px;
+      border: 2px solid #333a56;
+      cursor: pointer;
+      user-select: none;
+    }
+    .quick-chip:hover {
+      background: #2a314d;
+      border-color: var(--neon-cyan);
+    }
+
+    /* Chat Input Form */
+    .input-form {
+      background: #181c2d;
+      padding: 12px;
+      border-top: 4px solid var(--border-dark);
+      display: flex;
+      gap: 10px;
+    }
+
+    .terminal-input {
+      flex: 1;
+      background: #07080d;
+      color: #39ff14;
+      font-family: 'VT323', monospace;
+      font-size: 22px;
+      border: 3px solid var(--border-outer);
+      padding: 8px 12px;
+      outline: none;
+      box-shadow: inset 3px 3px 0px #000;
+    }
+
+    .terminal-input::placeholder {
+      color: #2e5932;
+    }
+
+    .send-btn {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 11px;
+      background: #ff007f;
+      color: #fff;
+      border: 3px solid #7a003c;
+      box-shadow: inset 3px 3px 0px #ff66b2, inset -3px -3px 0px #400020, 3px 3px 0px #000;
+      padding: 0 18px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .send-btn:hover {
+      background: #ff1a8c;
+    }
+    .send-btn:active {
+      box-shadow: inset -3px -3px 0px #ff66b2, inset 3px 3px 0px #400020;
+      transform: translate(2px, 2px);
+    }
+
+    /* Loading Pixel Box */
+    .loading-pulse {
+      display: inline-block;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 9px;
+      color: var(--neon-amber);
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="retro-window">
+    <!-- Window Header -->
+    <div class="title-bar">
+      <div class="title-text">
+        <span class="status-dot"></span>
+        <span>AGENT_KB.EXE v2.0 // HYBRID GRAPH+VECTOR</span>
+      </div>
+      <div class="window-controls">
+        <button class="btn-pixel" onclick="clearChat()">CLR</button>
+        <button class="btn-pixel" onclick="alert('Smart KB Agent Ready // 35 Financial Docs Indexed')">?</button>
+      </div>
+    </div>
+
+    <!-- Configuration Strip -->
+    <div class="config-strip">
+      <div class="config-group">
+        <span>COLL:</span>
+        <input type="text" id="collectionName" class="config-input" value="dev">
+      </div>
+      <div class="config-group">
+        <span class="badge badge-green">FAISS: 28.2K VEC</span>
+        <span class="badge badge-cyan">GRAPH: 92 NODES</span>
+        <span class="badge badge-pink">METRICS: ~0.95</span>
+      </div>
+    </div>
+
+    <!-- Chat Messages Terminal -->
+    <div class="terminal-body" id="chatArea">
+      <div class="msg-row msg-ai">
+        <div class="msg-header">> SYSTEM BOOT // READY</div>
+        <div class="msg-bubble">WELCOME TO SMART AGENT KB [RETRO EDITION]
+Hybrid Knowledge Retrieval Engine active.
+- Graph DB (NetworkX) Relation Expansion: ENABLED
+- Vector DB (FAISS) Scoped Similarity: ENABLED
+- Metadata Router & Pre-Search Filter: ENABLED
+
+Ask any question across the 35 financial & regulatory reports below.</div>
+      </div>
+    </div>
+
+    <!-- Quick Questions Chips -->
+    <div class="quick-bar">
+      <div class="quick-chip" onclick="askQuick(this)">Refex: Portfolio Exits & Lean-ins (A10)</div>
+      <div class="quick-chip" onclick="askQuick(this)">Inox Wind: Net Cash Claim (A04)</div>
+      <div class="quick-chip" onclick="askQuick(this)">Refex: Red-Flag Audit Review (A08)</div>
+      <div class="quick-chip" onclick="askQuick(this)">Bhadora: Reliability & Inconsistencies (A21)</div>
+      <div class="quick-chip" onclick="askQuick(this)">What is the SABR model used for?</div>
+    </div>
+
+    <!-- Query Input Area -->
+    <form class="input-form" onsubmit="handleSend(event)">
+      <input type="text" id="queryInput" class="terminal-input" placeholder="Type prompt / financial query here..." autocomplete="off" autofocus>
+      <button type="submit" class="send-btn" id="sendBtn">EXEC [►]</button>
+    </form>
+  </div>
+
+  <script>
+    const chatArea = document.getElementById('chatArea');
+    const queryInput = document.getElementById('queryInput');
+    const collectionInput = document.getElementById('collectionName');
+    const sendBtn = document.getElementById('sendBtn');
+
+    function askQuick(el) {
+      let q = el.innerText;
+      if (q.includes('A10')) q = "Refex has been reshaping its business portfolio. What has it exited, what is it leaning into, and how does the shift change the risk profile of its revenue and receivables?";
+      else if (q.includes('A04')) q = "Inox Wind's management describes the balance sheet as net-cash and free of interest-bearing debt. Reconcile this with the actual borrowings, interest rates, supplier financing and working-capital facilities in this year's report.";
+      else if (q.includes('A08')) q = "Run a credit red-flag review on Refex Industries for this year. Which events, disclosures, audit points, and governance flags warrant lender scrutiny?";
+      else if (q.includes('A21')) q = "How reliable is the financial information Bhadora Industries gives its lenders and shareholders?";
+      queryInput.value = q;
+      queryInput.focus();
+    }
+
+    function clearChat() {
+      chatArea.innerHTML = '';
+    }
+
+    function formatText(text) {
+      if (!text) return "";
+      // Highlight bracketed citations like [Document p.X]
+      return text.replace(/\[([A-Za-z0-9_\-\. ]+\s+p\.[0-9]+)\]/g, '<span class="citation">[$1]</span>');
+    }
+
+    async function handleSend(e) {
+      e.preventDefault();
+      const query = queryInput.value.trim();
+      if (!query) return;
+
+      const collection = collectionInput.value.trim() || 'dev';
+
+      // 1. Append User Message
+      appendMessage('user', query);
+      queryInput.value = '';
+
+      // 2. Append Loading Message
+      const loadingId = 'loading-' + Date.now();
+      const loadingRow = document.createElement('div');
+      loadingRow.className = 'msg-row msg-ai';
+      loadingRow.id = loadingId;
+      loadingRow.innerHTML = `
+        <div class="msg-header">> RETRIEVING...</div>
+        <div class="msg-bubble"><span class="loading-pulse">>> ACCESSING KNOWLEDGE GRAPH & FAISS VECTORS...</span></div>
+      `;
+      chatArea.appendChild(loadingRow);
+      chatArea.scrollTop = chatArea.scrollHeight;
+
+      sendBtn.disabled = true;
+
+      try {
+        const resp = await fetch('/query', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ collection_name: collection, query: query })
+        });
+
+        const data = await resp.json();
+        loadingRow.remove();
+
+        if (!resp.ok) {
+          appendMessage('ai', `ERROR [${resp.status}]: ${data.detail || 'Internal error'}`);
+          return;
+        }
+
+        // 3. Render AI Response
+        renderAiResponse(data);
+      } catch (err) {
+        loadingRow.remove();
+        appendMessage('ai', `CONNECTION ERROR: ${err.message}`);
+      } finally {
+        sendBtn.disabled = false;
+        queryInput.focus();
+      }
+    }
+
+    function appendMessage(sender, text) {
+      const row = document.createElement('div');
+      row.className = `msg-row msg-${sender}`;
+      row.innerHTML = `
+        <div class="msg-header">${sender === 'user' ? 'USER QUERY' : '> AGENT ANSWER'}</div>
+        <div class="msg-bubble">${formatText(text)}</div>
+      `;
+      chatArea.appendChild(row);
+      chatArea.scrollTop = chatArea.scrollHeight;
+    }
+
+    function renderAiResponse(data) {
+      const row = document.createElement('div');
+      row.className = 'msg-row msg-ai';
+
+      const usage = data.usage || {};
+      const latency = usage.latency_s ? `${usage.latency_s}s` : 'N/A';
+      const cost = usage.cost_usd ? `$${usage.cost_usd.toFixed(4)}` : 'N/A';
+      const chunksCount = data.chunks ? data.chunks.length : 0;
+
+      let traceHtml = '';
+      if (data.trace && data.trace.length > 0) {
+        traceHtml = `
+          <details>
+            <summary>[► VIEW 5-STAGE AUDIT TRACE]</summary>
+            ${data.trace.map(t => `
+              <div class="trace-item">
+                <strong style="color:var(--neon-cyan)">[${t.step_name}]</strong>: ${t.description}<br>
+                <span style="color:#7f849c">> In:</span> ${JSON.stringify(t.input)}<br>
+                <span style="color:#39ff14">> Out:</span> ${JSON.stringify(t.output)}
+              </div>
+            `).join('')}
+          </details>
+        `;
+      }
+
+      row.innerHTML = `
+        <div class="msg-header">> GROUNDED_AGENT_ANSWER // 200 OK</div>
+        <div class="msg-bubble">${formatText(data.answer)}
+          <div class="meta-box">
+            <div class="meta-metrics">
+              <span>LATENCY: ${latency}</span>
+              <span>COST: ${cost}</span>
+              <span>CHUNKS: ${chunksCount}</span>
+            </div>
+            ${traceHtml}
+          </div>
+        </div>
+      `;
+
+      chatArea.appendChild(row);
+      chatArea.scrollTop = chatArea.scrollHeight;
+    }
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,65 @@
+{
+ "num_questions": 1,
+ "avg_answer_precision": 0.9,
+ "avg_answer_recall": 0.6923076923076923,
+ "avg_context_precision": 0.0,
+ "avg_context_recall": 0.0,
+ "per_question": [
+  {
+   "answer_precision": 0.9,
+   "answer_recall": 0.6923076923076923,
+   "context_precision": 0.0,
+   "context_recall": 0.0,
+   "answer_detail": {
+    "matched_ids": [
+     "bp1",
+     "bp2",
+     "bp3",
+     "bp4",
+     "bp7",
+     "bp8",
+     "bp9",
+     "bp10",
+     "bp11"
+    ],
+    "missing_ids": [
+     "bp5",
+     "bp6",
+     "bp12",
+     "bp13"
+    ],
+    "extra_ids": [
+     "ap4"
+    ],
+    "benchmark_points": {
+     "bp1": "The retrieved excerpts do not contain the figure the question asks for.",
+     "bp2": "The retrieved excerpts give no FDIC statistic on the percentage increase in community banks' loan-loss allowances at CECL adoption.",
+     "bp3": "The retrieved excerpts show that the actual impact varies by institution.",
+     "bp4": "The FDIC states that the effect on allowance levels \"will depend on many factors\" [FDIC FAQ.pdf p18].",
+     "bp5": "The FDIC states that the agencies \"cannot reasonably forecast\" the effect on allowance levels [FDIC FAQ.pdf p18].",
+     "bp6": "The retrieved excerpts contain only one numerical example.",
+     "bp7": "That numerical example is illustrative.",
+     "bp8": "The numerical example shows an allowance of $150,000 under the incurred-loss method at 12/31/2021 [FDIC FAQ.pdf p32\u201333].",
+     "bp9": "The numerical example shows an allowance of $200,000 under CECL at 1/1/2022 [FDIC FAQ.pdf p32\u201333].",
+     "bp10": "The FDIC states that these dollar amounts \"are for illustrative purposes only\" [FDIC FAQ.pdf p31, fn. 55].",
+     "bp11": "The FDIC states that these dollar amounts \"are not intended to represent the amount by which an institution's allowance for credit losses may increase upon initially applying CECL\" [FDIC FAQ.pdf p31, fn. 55].",
+     "bp12": "The author does not present that example as the answer.",
+     "bp13": "The retrieved excerpts do not mention community banks specifically."
+    },
+    "agent_points": {
+     "ap1": "The excerpts do not state a percentage increase for US community banks\u2019 loan-loss allowances on the day they adopted the lifetime expected-loss standard.",
+     "ap2": "The FDIC FAQ provides an illustrative example on p.32.",
+     "ap3": "In that illustrative example, allowance for loan and lease losses is $150,000 as of December 31, 2021.",
+     "ap4": "In that illustrative example, the allowance changes by $50,000.",
+     "ap5": "In that illustrative example, the initial allowance for credit losses on loans HFI is $200,000.",
+     "ap6": "In that illustrative example, the adoption of CECL is as of January 1, 2022.",
+     "ap7": "The FDIC FAQ states on p.31 that those dollar amounts are for illustrative purposes only.",
+     "ap8": "The FDIC FAQ states on p.31 that those dollar amounts are not intended to represent the amount by which an institution\u2019s allowance for credit losses may increase upon initially applying CECL.",
+     "ap9": "The FDIC FAQ states on p.19 that the actual effect will vary by institution.",
+     "ap10": "The FDIC FAQ states on p.19 that the actual effect will depend on many factors."
+    }
+   },
+   "query": "According to the FDIC, by what percentage did US community banks' loan-loss allowances increase on the day they adopted the lifetime expected-loss standard?"
+  }
+ ]
+}
